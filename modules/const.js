@@ -88,7 +88,7 @@
         });
 
     },
-    bucketName: "anitalesiakbucket",
+    bucketName: "lesiakbucket",
     messageQueue: "https://sqs.eu-west-2.amazonaws.com/105347894034/anitaqueue",
     logTableName: "anitalogdb",
     UPLOAD_DIR: '/uploads',
