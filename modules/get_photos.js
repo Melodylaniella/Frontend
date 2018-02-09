@@ -19,7 +19,7 @@ var task = function (request, callback) {
     var downloadedPictures = [];
 
     // tworzymy koszyk, logujemy siê do niego 
-  /*
+
     var s3 = new AWS.S3();
     var params = {Bucket: Const.bucketName};
     s3.listObjects(params, function (err, data) {
@@ -46,7 +46,7 @@ var task = function (request, callback) {
 
             });
         }
-    });*/
+    });
 
 };
 
