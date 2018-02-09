@@ -11,10 +11,6 @@ var task = function (request, callback) {
 
     var form = new formidable.IncomingForm();
     var fileName;
-
-    if (!fs.existsSync(Const.UPLOAD_DIR)){
-        fs.mkdirSync(Const.UPLOAD_DIR);
-    }
     
     form.multiples = true;
     form.uploadDir = path.join(__dirname, Const.UPLOAD_DIR);
