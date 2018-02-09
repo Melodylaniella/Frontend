@@ -21,5 +21,5 @@ var urlMap = [
 
 var service = require("./lib/service").http(urlMap);
 
-var PORT = 80;
+var PORT = 8080;
 service(PORT);
